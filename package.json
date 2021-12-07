@@ -1,14 +1,20 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "dependencies": {
+    "express": "^4.14.0",
+    "prettier": "^2.5.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "format": "prettier-standard --format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  },
+  "author": "Ethan Yu",
+  "devDependencies": {
+    "prettier-standard": "^16.4.1"
+  }
 }
